@@ -8,10 +8,9 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div
+    <div className="header"
       style={{
-        position: "fixed",
-        display: "flex",
+        
         justifyContent: "center",
         gap: "2rem",
         background: "rgba(255,255,255,0.75)",
