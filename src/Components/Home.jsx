@@ -20,7 +20,7 @@ import PropTypes from "prop-types";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/isaac2-profile.jpg";
+import image from "../images/isaac2-profile.webp";
 
 const imageAltText = "A man sitting outdoors in a lush green forest environment, holding a stylish and modern laptop and preparing to type on it while surrounded by the beauty of nature and the integration of technology into the environments natural.";
 

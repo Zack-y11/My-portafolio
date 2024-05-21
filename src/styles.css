@@ -124,6 +124,7 @@ a:hover {
   grid-gap: 20px;
   grid-template-columns: 330px 300px;
   margin: 20px auto;
+  flex-wrap: wrap;
 }
 
 .container .box {
@@ -144,7 +145,46 @@ img.socialIcon {
 
 /* Responsive design */
 /* Tablets y phablets */
-@media only screen and (min-width: 576px) and (max-width: 767px){
+@media only screen and (min-width: 501px) and (max-width: 790px){
+  .header {
+    display: flex;
+  }
+  .name{
+    width: 50vw;
+    position: absolute;
+    right: 0;
+  }
+  h1 {
+    font-family: "Cormorant Garamond", serif;
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 0.8;
+    margin: 0;
+  }
+
+
+
+  
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 1rem !important;
+    gap: 10em;
+    font-size: 1.1rem !important;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .box{
+      width: 60%;
+    }
+    #portafolio{
+      display: flex;
+      flex-direction: column !important;
+    }
 
 }
 
@@ -158,6 +198,7 @@ img.socialIcon {
     position: absolute;
     right: 0;
   }
+
   h1 {
     font-family: "Cormorant Garamond", serif;
     font-size: 5rem;
@@ -166,13 +207,40 @@ img.socialIcon {
     margin: 0;
   }
 
-
   .div-link{
     width: 100vw;
     left: 0;
     display: flex;
     justify-content: center;
-   
-    
   }
+
+  ul{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem 1rem !important;
+  gap: 10em;
+  font-size: 1.1rem !important;
+  }
+  li {
+    line-height: 0.7;
+  }
+
+  #about_me{
+    padding: 2rem !important;
+  }
+
+  #quote{
+    padding: 1em !important;
+  }
+  #portafolio{
+    display: flex;
+    flex-direction: column !important;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
 }
